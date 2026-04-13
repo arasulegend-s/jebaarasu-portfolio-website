@@ -19,16 +19,20 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-16">
         <div className="text-center max-w-2xl">
-          <div className="w-28 h-28 mx-auto mb-8 rounded-full bg-secondary flex items-center justify-center">
-            <Code className="w-12 h-12 text-primary" />
+          <div className="w-36 h-36 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary/30">
+            <img 
+              src="/images/profile.jpeg" 
+              alt="JEBA ARASU S" 
+              className="w-full h-full object-cover"
+            />
           </div>
           <p className="text-primary text-sm font-medium tracking-wider uppercase mb-4">Hello, I&apos;m</p>
-          <h1 className="text-5xl font-bold mb-4 text-balance">Your Name</h1>
+          <h1 className="text-5xl font-bold mb-4 text-balance">JEBA ARASU S</h1>
           <p className="text-xl text-muted-foreground mb-8 text-pretty">
-            First-Year B.Tech CSE Student
+            Aspiring ML Engineer | B.Tech CSE Student
           </p>
           <p className="text-muted-foreground mb-10 leading-relaxed">
-            Passionate about coding and technology. Eager to learn and build innovative solutions.
+            Passionate about Machine Learning and AI. Building intelligent solutions through code and data.
           </p>
           <div className="flex gap-4 justify-center">
             <a 
@@ -55,12 +59,12 @@ export default function Portfolio() {
           <div className="bg-card border border-border rounded-xl p-8">
             <p className="text-muted-foreground leading-relaxed mb-6">
               I am a first-year B.Tech Computer Science and Engineering student with a strong passion for 
-              programming and software development. Currently exploring various domains in computer science 
-              to find my niche.
+              Machine Learning and Artificial Intelligence. Currently building a solid foundation in 
+              programming while exploring the exciting world of intelligent systems.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              My journey in tech started with curiosity about how software works, and now I&apos;m committed 
-              to building practical skills through consistent learning and hands-on projects.
+              My journey in tech is driven by curiosity about how machines can learn and make decisions. 
+              I&apos;m committed to mastering the fundamentals while working towards becoming an ML Engineer.
             </p>
             <div className="grid grid-cols-2 gap-6 mt-8 pt-8 border-t border-border">
               <div>
@@ -69,11 +73,11 @@ export default function Portfolio() {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Focus</p>
-                <p className="font-medium">Full Stack Development</p>
+                <p className="font-medium">Machine Learning</p>
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Location</p>
-                <p className="font-medium">India</p>
+                <p className="font-medium">Chennai, India</p>
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Status</p>
@@ -265,7 +269,7 @@ export default function Portfolio() {
       <footer className="py-8 px-6 border-t border-border">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Your Name. Built with passion.
+            © {new Date().getFullYear()} JEBA ARASU S. Built with passion.
           </p>
         </div>
       </footer>
