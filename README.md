@@ -9,15 +9,15 @@ aspiring ML Engineer.
 
 ## 📸 Screenshots
 
-![Hero Section](public/Screenshot%202026-04-13%20180859.png)
+![Hero Section](public/hero.png)
 
-![About Section](public/Screenshot%202026-04-13%20180908.png)
+![About Section](public/about.png)
 
-![Skills Section](public/Screenshot%202026-04-13%20180915.png)
+![Skills Section](public/skills.png)
 
-![Projects Section](public/Screenshot%202026-04-13%20180924.png)
+![Projects Section](public/projects.png)
 
-![Contact Section](public/Screenshot%202026-04-13%20180932.png)
+![Contact Section](public/contact.png)
 
 ## 👨‍💻 About Me
 Hi! I'm Jeba Arasu S, a First-Year B.Tech CSE Student 
@@ -36,8 +36,4 @@ and Artificial Intelligence.
 - Skills showcase
 - Featured and Other Projects sections
 - Working contact form
-- Data stored in Google Sheets
-
-## 📬 Contact
-- LinkedIn: https://www.linkedin.com/in/jeba-arasu-s-774653377/
-- GitHub: https://github.com/arasulegend-s
+- Data stored in
