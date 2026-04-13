@@ -7,17 +7,6 @@ aspiring ML Engineer.
 ## 🔗 Live Demo
 👉 https://v0-jebaarasu-portfolio.vercel.app
 
-## 📸 Screenshots
-
-![Hero Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/hero.png)
-
-![About Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/about.png)
-
-![Skills Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/skills.png)
-
-![Projects Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/projects.png)
-
-![Contact Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/contact.png)
 ## 👨‍💻 About Me
 Hi! I'm Jeba Arasu S, a First-Year B.Tech CSE Student 
 from Chennai, India. Passionate about Machine Learning 
