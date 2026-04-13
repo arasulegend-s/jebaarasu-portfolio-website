@@ -248,7 +248,7 @@ export default function Portfolio() {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com/in/jeba-arasu-s" 
+              href="https://www.linkedin.com/in/jeba-arasu-s" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 flex items-center justify-center rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
