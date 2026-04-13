@@ -1,4 +1,4 @@
-import { Code, Mail, Github, Linkedin, ExternalLink } from "lucide-react"
+import { Code, Mail, Github, Linkedin } from "lucide-react"
 
 export default function Portfolio() {
   return (
@@ -94,29 +94,7 @@ export default function Portfolio() {
             <div>
               <h3 className="text-lg font-semibold mb-4 text-primary">Programming Languages</h3>
               <div className="flex flex-wrap gap-3">
-                {["C", "C++", "Python", "JavaScript"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-secondary rounded-lg text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-primary">Web Technologies</h3>
-              <div className="flex flex-wrap gap-3">
-                {["HTML", "CSS", "React (Learning)"].map((skill) => (
-                  <span key={skill} className="px-4 py-2 bg-secondary rounded-lg text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-primary">Tools & Technologies</h3>
-              <div className="flex flex-wrap gap-3">
-                {["Git", "VS Code", "Linux", "MySQL"].map((skill) => (
+                {["Python", "SQL"].map((skill) => (
                   <span key={skill} className="px-4 py-2 bg-secondary rounded-lg text-sm font-medium">
                     {skill}
                   </span>
@@ -127,7 +105,7 @@ export default function Portfolio() {
             <div>
               <h3 className="text-lg font-semibold mb-4 text-primary">Currently Learning</h3>
               <div className="flex flex-wrap gap-3">
-                {["Data Structures", "Algorithms", "Web Development"].map((skill) => (
+                {["HTML", "CSS", "JavaScript", "C"].map((skill) => (
                   <span key={skill} className="px-4 py-2 bg-primary/20 border border-primary/30 rounded-lg text-sm font-medium text-primary">
                     {skill}
                   </span>
@@ -147,44 +125,26 @@ export default function Portfolio() {
           {/* Featured Projects */}
           <h3 className="text-xl font-semibold mb-6 text-primary">Featured Projects</h3>
           <div className="grid gap-6 md:grid-cols-2 mb-16">
-            {/* Featured Project 1 - Portfolio */}
-            <div className="bg-card border-2 border-primary/30 rounded-xl p-8 hover:border-primary transition-colors">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-5">
-                <Code className="w-6 h-6 text-primary" />
-              </div>
-              <div className="flex items-center justify-between mb-3">
-                <h4 className="text-xl font-semibold">Personal Portfolio Website</h4>
-                <div className="flex gap-2">
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Github className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <ExternalLink className="w-5 h-5" />
-                  </a>
-                </div>
-              </div>
-              <p className="text-muted-foreground mb-5 leading-relaxed">
-                My first web development project. A clean and modern portfolio website to showcase my skills and projects.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">HTML</span>
-                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">CSS</span>
-                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">Next.js</span>
-              </div>
-            </div>
-
-            {/* Featured Project 2 - Coming Soon */}
+            {/* Featured Project 1 */}
             <div className="bg-card border-2 border-dashed border-primary/30 rounded-xl p-8 flex flex-col">
               <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-5">
                 <Code className="w-6 h-6 text-muted-foreground" />
               </div>
-              <h4 className="text-xl font-semibold mb-3">Coming Soon</h4>
+              <h4 className="text-xl font-semibold mb-3">Coming Soon 🚀</h4>
               <p className="text-muted-foreground mb-5 leading-relaxed flex-1">
-                Currently working on my next project. Stay tuned for updates!
+                Currently learning and building. Check back soon!
               </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="text-xs px-3 py-1.5 bg-secondary text-muted-foreground rounded-full font-medium">Python</span>
+            </div>
+
+            {/* Featured Project 2 */}
+            <div className="bg-card border-2 border-dashed border-primary/30 rounded-xl p-8 flex flex-col">
+              <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-5">
+                <Code className="w-6 h-6 text-muted-foreground" />
               </div>
+              <h4 className="text-xl font-semibold mb-3">Coming Soon 🚀</h4>
+              <p className="text-muted-foreground mb-5 leading-relaxed flex-1">
+                Currently learning and building. Check back soon!
+              </p>
             </div>
           </div>
 
@@ -192,37 +152,19 @@ export default function Portfolio() {
           <h3 className="text-lg font-semibold mb-4 text-muted-foreground">Other Projects</h3>
           <div className="grid gap-4 md:grid-cols-2">
             {/* Other Project 1 */}
-            <div className="bg-card/50 border border-border rounded-lg p-5 hover:border-primary/30 transition-colors">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium">Hello World Programs</h4>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  <Github className="w-4 h-4" />
-                </a>
-              </div>
-              <p className="text-muted-foreground text-sm mb-3">
-                Practice programs while learning C and C++.
+            <div className="bg-card/50 border border-dashed border-border rounded-lg p-5">
+              <h4 className="font-medium mb-2">Coming Soon 🚀</h4>
+              <p className="text-muted-foreground text-sm">
+                Currently learning and building. Check back soon!
               </p>
-              <div className="flex gap-2">
-                <span className="text-xs px-2 py-1 bg-secondary rounded">C</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">C++</span>
-              </div>
             </div>
 
             {/* Other Project 2 */}
-            <div className="bg-card/50 border border-border rounded-lg p-5 hover:border-primary/30 transition-colors">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium">College Assignments</h4>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  <Github className="w-4 h-4" />
-                </a>
-              </div>
-              <p className="text-muted-foreground text-sm mb-3">
-                Academic programming assignments.
+            <div className="bg-card/50 border border-dashed border-border rounded-lg p-5">
+              <h4 className="font-medium mb-2">Coming Soon 🚀</h4>
+              <p className="text-muted-foreground text-sm">
+                Currently learning and building. Check back soon!
               </p>
-              <div className="flex gap-2">
-                <span className="text-xs px-2 py-1 bg-secondary rounded">Python</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">C</span>
-              </div>
             </div>
           </div>
         </div>
