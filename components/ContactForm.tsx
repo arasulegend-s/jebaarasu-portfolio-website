@@ -19,21 +19,23 @@ export default function ContactForm() {
     e.preventDefault()
     setStatus("loading")
 
+    const jsonData = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    }
+
     try {
-      const response = await fetch(
+      await fetch(
         "https://script.google.com/macros/s/AKfycbxPTGV6JfgUk7_QEEXEnUF14apkal5UyuYJ3vYNR0GQS5iatGJ4K_uezNcPQ8YgFHIW/exec",
         {
           method: "POST",
           mode: "no-cors",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(jsonData),
         }
       )
       
-      // Since we're using no-cors, we won't get a proper response
-      // but the request will still be sent
+      // With no-cors mode, we assume success since we can't read the response
       setStatus("success")
       setFormData({ name: "", email: "", message: "" })
     } catch (error) {
