@@ -1,4 +1,5 @@
 import { Code, Mail, Github, Linkedin } from "lucide-react"
+import ContactForm from "@/components/ContactForm"
 
 export default function Portfolio() {
   return (
@@ -184,58 +185,7 @@ export default function Portfolio() {
           </p>
           
           {/* Contact Form */}
-          <div className="bg-white rounded-xl p-8 shadow-lg">
-            <form className="flex flex-col gap-5">
-              <div className="flex flex-col gap-2">
-                <label htmlFor="name" className="text-sm font-medium text-gray-700">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your name"
-                  className="px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
-                  required
-                />
-              </div>
-              
-              <div className="flex flex-col gap-2">
-                <label htmlFor="email" className="text-sm font-medium text-gray-700">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="your.email@example.com"
-                  className="px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
-                  required
-                />
-              </div>
-              
-              <div className="flex flex-col gap-2">
-                <label htmlFor="message" className="text-sm font-medium text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  placeholder="Your message..."
-                  className="px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all resize-none"
-                  required
-                />
-              </div>
-              
-              <button
-                type="submit"
-                className="mt-2 px-6 py-3 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
+          <ContactForm />
           
           {/* Social Links */}
           <div className="flex justify-center gap-6 mt-10">
