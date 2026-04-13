@@ -9,15 +9,15 @@ aspiring ML Engineer.
 
 ## 📸 Screenshots
 
-![Hero Section](public/Screenshot 2026-04-13 180859.png)
+![Hero Section](public/Screenshot%202026-04-13%20180859.png)
 
-![About Section](public/Screenshot 2026-04-13 180908.png)
+![About Section](public/Screenshot%202026-04-13%20180908.png)
 
-![Skills Section](public/Screenshot 2026-04-13 180915.png)
+![Skills Section](public/Screenshot%202026-04-13%20180915.png)
 
-![Projects Section](public/Screenshot 2026-04-13 180924.png)
+![Projects Section](public/Screenshot%202026-04-13%20180924.png)
 
-![Contact Section](public/Screenshot 2026-04-13 180932.png)
+![Contact Section](public/Screenshot%202026-04-13%20180932.png)
 
 ## 👨‍💻 About Me
 Hi! I'm Jeba Arasu S, a First-Year B.Tech CSE Student 
