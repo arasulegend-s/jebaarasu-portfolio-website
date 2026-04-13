@@ -240,7 +240,7 @@ export default function Portfolio() {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mt-10">
             <a 
-              href="https://github.com" 
+              href="https://github.com/arasulegend-s" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 flex items-center justify-center rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -248,7 +248,7 @@ export default function Portfolio() {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/jeba-arasu-s" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 flex items-center justify-center rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -256,7 +256,7 @@ export default function Portfolio() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:jebaarasuai@gmail.com" 
               className="w-12 h-12 flex items-center justify-center rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               <Mail className="w-5 h-5" />
