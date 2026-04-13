@@ -144,11 +144,16 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
           
-          <div className="grid gap-6 md:grid-cols-2">
-            {/* Project 1 */}
-            <div className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-colors">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold">Calculator App</h3>
+          {/* Featured Projects */}
+          <h3 className="text-xl font-semibold mb-6 text-primary">Featured Projects</h3>
+          <div className="grid gap-6 md:grid-cols-2 mb-16">
+            {/* Featured Project 1 - Portfolio */}
+            <div className="bg-card border-2 border-primary/30 rounded-xl p-8 hover:border-primary transition-colors">
+              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-5">
+                <Code className="w-6 h-6 text-primary" />
+              </div>
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="text-xl font-semibold">Personal Portfolio Website</h4>
                 <div className="flex gap-2">
                   <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github className="w-5 h-5" />
@@ -158,61 +163,66 @@ export default function Portfolio() {
                   </a>
                 </div>
               </div>
-              <p className="text-muted-foreground text-sm mb-4">
-                A simple calculator built with HTML, CSS, and JavaScript with basic arithmetic operations.
+              <p className="text-muted-foreground mb-5 leading-relaxed">
+                My first web development project. A clean and modern portfolio website to showcase my skills and projects.
               </p>
-              <div className="flex gap-2">
-                <span className="text-xs px-2 py-1 bg-secondary rounded">HTML</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">CSS</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">JavaScript</span>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">HTML</span>
+                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">CSS</span>
+                <span className="text-xs px-3 py-1.5 bg-primary/20 text-primary rounded-full font-medium">Next.js</span>
               </div>
             </div>
 
-            {/* Project 2 */}
-            <div className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-colors">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold">To-Do List</h3>
-                <div className="flex gap-2">
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Github className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <ExternalLink className="w-5 h-5" />
-                  </a>
-                </div>
+            {/* Featured Project 2 - Coming Soon */}
+            <div className="bg-card border-2 border-dashed border-primary/30 rounded-xl p-8 flex flex-col">
+              <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mb-5">
+                <Code className="w-6 h-6 text-muted-foreground" />
               </div>
-              <p className="text-muted-foreground text-sm mb-4">
-                A task management app to add, edit, and delete tasks with local storage persistence.
+              <h4 className="text-xl font-semibold mb-3">Coming Soon</h4>
+              <p className="text-muted-foreground mb-5 leading-relaxed flex-1">
+                Currently working on my next project. Stay tuned for updates!
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="text-xs px-3 py-1.5 bg-secondary text-muted-foreground rounded-full font-medium">Python</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Other Projects */}
+          <h3 className="text-lg font-semibold mb-4 text-muted-foreground">Other Projects</h3>
+          <div className="grid gap-4 md:grid-cols-2">
+            {/* Other Project 1 */}
+            <div className="bg-card/50 border border-border rounded-lg p-5 hover:border-primary/30 transition-colors">
+              <div className="flex items-center justify-between mb-2">
+                <h4 className="font-medium">Hello World Programs</h4>
+                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Github className="w-4 h-4" />
+                </a>
+              </div>
+              <p className="text-muted-foreground text-sm mb-3">
+                Practice programs while learning C and C++.
               </p>
               <div className="flex gap-2">
-                <span className="text-xs px-2 py-1 bg-secondary rounded">HTML</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">CSS</span>
-                <span className="text-xs px-2 py-1 bg-secondary rounded">JavaScript</span>
+                <span className="text-xs px-2 py-1 bg-secondary rounded">C</span>
+                <span className="text-xs px-2 py-1 bg-secondary rounded">C++</span>
               </div>
             </div>
 
-            {/* Project 3 */}
-            <div className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-colors">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold">Number Guessing Game</h3>
-                <div className="flex gap-2">
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Github className="w-5 h-5" />
-                  </a>
-                </div>
+            {/* Other Project 2 */}
+            <div className="bg-card/50 border border-border rounded-lg p-5 hover:border-primary/30 transition-colors">
+              <div className="flex items-center justify-between mb-2">
+                <h4 className="font-medium">College Assignments</h4>
+                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Github className="w-4 h-4" />
+                </a>
               </div>
-              <p className="text-muted-foreground text-sm mb-4">
-                A console-based number guessing game built in Python with different difficulty levels.
+              <p className="text-muted-foreground text-sm mb-3">
+                Academic programming assignments.
               </p>
               <div className="flex gap-2">
                 <span className="text-xs px-2 py-1 bg-secondary rounded">Python</span>
+                <span className="text-xs px-2 py-1 bg-secondary rounded">C</span>
               </div>
-            </div>
-
-            {/* Project 4 - Coming Soon */}
-            <div className="bg-card/50 border border-dashed border-border rounded-xl p-6 flex flex-col items-center justify-center text-center">
-              <p className="text-muted-foreground text-sm mb-2">More projects coming soon...</p>
-              <p className="text-xs text-muted-foreground">Currently learning and building!</p>
             </div>
           </div>
         </div>
