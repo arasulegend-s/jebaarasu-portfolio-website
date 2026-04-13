@@ -9,16 +9,15 @@ aspiring ML Engineer.
 
 ## 📸 Screenshots
 
-![Hero Section](public/hero.png)
+![Hero Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/hero.png)
 
-![About Section](public/about.png)
+![About Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/about.png)
 
-![Skills Section](public/skills.png)
+![Skills Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/skills.png)
 
-![Projects Section](public/projects.png)
+![Projects Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/projects.png)
 
-![Contact Section](public/contact.png)
-
+![Contact Section](https://raw.githubusercontent.com/arasulegend-s/jebaarasu-portfolio-website/main/public/contact.png)
 ## 👨‍💻 About Me
 Hi! I'm Jeba Arasu S, a First-Year B.Tech CSE Student 
 from Chennai, India. Passionate about Machine Learning 
