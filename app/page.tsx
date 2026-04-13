@@ -81,7 +81,7 @@ export default function Portfolio() {
               </div>
               <div>
                 <p className="text-sm text-muted-foreground">Status</p>
-                <p className="font-medium">Open for Internship</p>
+                <p className="font-medium">Open to Internships</p>
               </div>
             </div>
           </div>
